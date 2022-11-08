@@ -1,6 +1,6 @@
 {
   "name": "@bluepha-cli/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "linyuanyuan <herryleehom@126.com>",
   "homepage": "https://github.com/LinXibei/bluepha-cli/tree/main/packages/utils#readme",
@@ -27,6 +27,6 @@
     "url": "https://github.com/LinXibei/bluepha-cli/issues"
   },
   "dependencies": {
-    "@bluepha-cli/core": "^1.0.0"
+    "@bluepha-cli/core": "^0.0.1"
   }
 }
