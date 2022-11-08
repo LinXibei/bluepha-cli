@@ -27,6 +27,6 @@
     "url": "https://github.com/LinXibei/bluepha-cli/issues"
   },
   "dependencies": {
-    "@bluepha-cli/core": "^0.0.1"
-  }
+  },
+  "gitHead": "35a7221a0422b64174eee42431b8871bccfacdc3"
 }
