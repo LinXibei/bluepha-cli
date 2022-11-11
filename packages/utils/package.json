@@ -26,5 +26,9 @@
   "bugs": {
     "url": "https://github.com/LinXibei/bluepha-cli/issues"
   },
-  "gitHead": "ac947a55f850d3cfe9c53cd9fd67ae9febefa318"
+  "gitHead": "ac947a55f850d3cfe9c53cd9fd67ae9febefa318",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "semver": "^7.3.8"
+  }
 }
