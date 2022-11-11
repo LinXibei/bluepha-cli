@@ -1,14 +1,11 @@
 {
-  "name": "@bluepha-cli/core",
+  "name": "@bluepha-cli/init",
   "version": "0.0.3",
   "description": "> TODO: description",
   "author": "linyuanyuan <herryleehom@126.com>",
-  "homepage": "https://github.com/LinXibei/bluepha-cli/tree/main/packages/core#readme",
+  "homepage": "https://github.com/LinXibei/bluepha-cli/tree/main/packages/init#readme",
   "license": "ISC",
   "main": "lib/index.js",
-  "bin": {
-    "bluepha-cli": "lib/index.js"
-  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -24,14 +21,9 @@
     "url": "git+https://github.com/LinXibei/bluepha-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@bluepha-cli/core.test.js"
+    "test": "node ./__tests__/@bluepha-cli/init.test.js"
   },
   "bugs": {
     "url": "https://github.com/LinXibei/bluepha-cli/issues"
-  },
-  "dependencies": {
-    "@bluepha-cli/utils": "^0.0.3",
-    "chalk": "^5.1.2"
-  },
-  "gitHead": "ac947a55f850d3cfe9c53cd9fd67ae9febefa318"
+  }
 }
