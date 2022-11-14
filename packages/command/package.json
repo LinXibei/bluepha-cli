@@ -1,9 +1,9 @@
 {
-  "name": "@bluepha-cli/package",
+  "name": "@bluepha-cli/command",
   "version": "0.0.5",
   "description": "> TODO: description",
   "author": "linyuanyuan <herryleehom@126.com>",
-  "homepage": "https://github.com/LinXibei/bluepha-cli/tree/main/packages/package#readme",
+  "homepage": "https://github.com/LinXibei/bluepha-cli/tree/main/packages/command#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -21,16 +21,9 @@
     "url": "git+https://github.com/LinXibei/bluepha-cli.git"
   },
   "scripts": {
-    "test": "node ./__tests__/@bluepha-cli/package.test.js"
+    "test": "node ./__tests__/@bluepha-cli/command.test.js"
   },
   "bugs": {
     "url": "https://github.com/LinXibei/bluepha-cli/issues"
-  },
-  "dependencies": {
-    "@bluepha-cli/format-path": "file:../format-path",
-    "fs-extra": "^10.1.0",
-    "npminstall": "^6.6.1",
-    "path-exists": "^4.0.0",
-    "pkg-dir": "^4.2.0"
   }
 }
