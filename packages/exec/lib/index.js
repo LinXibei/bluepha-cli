@@ -39,7 +39,12 @@ async function exec() {
   }
   const rootFile = pkg.getRootFile();
   if (rootFile) {
-    require(rootFile).apply(null, Array.from(arguments));
+    try {
+
+      require(rootFile).apply(null, Array.from(arguments));
+    } catch(e) {
+      console.error(e.message)
+    }
   }
 }
 
